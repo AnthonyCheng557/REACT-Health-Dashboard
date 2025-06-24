@@ -24,6 +24,27 @@ Select Patient 2 and 3 (The API data transfer functionality is incomplete and ma
 • User profiles with personal and contact details  
 • History of diagnostics and lab results  
 
+## Project Structure
+
+- src
+  - assets
+    - main_icons
+    - navbar_icons
+    - profile_pictures
+    - react.svg
+  - components
+  - main-body
+    - left-section
+    - middle-section
+    - right-section
+  - navbar
+  - .gitignore
+  - App.tsx
+  - FetchGet.module.css
+  - FetchGet.tsx
+  - index.css
+  - main.tsx
+  - test.tsx
 
 # React + TypeScript + Vite
 
