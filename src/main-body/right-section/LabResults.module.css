@@ -1,0 +1,47 @@
+.lab_results_container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    grid-row: 33 / 55;
+    grid-column: 3 / 4 ;
+    height: 300px;
+
+
+
+}
+
+.results_list {
+    background-color: #fff;
+    list-style-type: none;
+    padding: 0;
+    
+
+    overflow-y: auto;  
+    scrollbar-width: thin;
+    scrollbar-color: black transparent;
+    height: 180px;
+
+
+}
+
+.listing {
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 40px;
+width: 315px;
+border-radius: 20px;
+
+  
+}
+
+.listing:hover {
+    background-color: #F6F7F8;
+    height: 40px;
+    width: 315px;
+}
+.download_icon {
+    padding-right: 20px;
+}
+
+

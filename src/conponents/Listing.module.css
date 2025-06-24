@@ -1,0 +1,56 @@
+.container1 {
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+    transition: background-color 0.2s ease;
+    border-radius: 20px;
+}
+.container2 {
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+    transition: background-color 0.2s ease;
+    border-radius: 20px;
+}
+
+.container1:hover {
+    background-color: #D8FCF7;  
+}
+
+
+
+.head_grp_list {
+    font-weight: bold;
+    
+}
+
+.info_grp_list {
+    color:#707070;
+    
+}
+.info_profile {
+    font-weight: bold;
+
+}
+
+
+.hori_more_icon {
+    padding-right: 20px;
+}
+
+.styleList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    white-space: nowrap;
+    flex: 1;
+    padding-left: 10px;
+    height: 55px;
+    
+}
+
+.picture {
+    height: 48px;
+    width: 48px;
+}
+

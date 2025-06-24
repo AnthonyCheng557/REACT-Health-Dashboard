@@ -1,0 +1,41 @@
+.bloodPressureContainer {
+    background-color: #f8f4fc;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+
+}
+
+.left_chart {
+    width: 65%;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.title {
+    padding-left: 20px;
+}
+
+.display_date {
+    color: #072635;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.chart {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.display_date_container {
+    padding-right: 30px;
+}
+
+
+

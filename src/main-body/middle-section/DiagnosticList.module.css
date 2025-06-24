@@ -1,0 +1,40 @@
+.diagnosticListContainer {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    grid-row: 33 / 55;
+    grid-column: 2 / 3 ;
+    height: 300px;
+
+
+}
+
+.labels {
+    display: flex;
+    flex-direction: row;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.diagnosticList {
+    background-color:#fff;
+    list-style-type: none;
+    padding: 0;
+    overflow-y: auto;  
+    scrollbar-width: thin;
+    scrollbar-color: black transparent;
+    height: 80%;
+
+}
+
+.listing_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
